@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./js/pixastic.custom.js"></script>
+    <script type="text/javascript" src="./js/PADAnalyzer.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./css/PAD.css">
+  </head>
+  <body>
+    <form action='#' onsubmit="return false;">
+        <input type='file' id='imgfile' />
+        <input type='button' id='btnLoad' value='Load' onclick='loadImage();' />
+    </form>
+    <canvas id="canvas"></canvas>
+    
+    <textarea id="output"></textarea>
+  </body>
+</html>
